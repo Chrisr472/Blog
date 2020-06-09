@@ -7,10 +7,10 @@
 	<title>
 		My Blog Page
 	</title>
-
+<link rel="stylesheet" type="text/css" href="blog.css">
 	</head>
-<body bgcolor="fffff0">
-	<div id="head" bgcolor="ffffff">
+<body bgcolor="ffffff">
+	<div id="head" >
 	<header>
 		<fieldset>
 		  <h1 align="center" >My Blog</h1>
@@ -21,7 +21,8 @@
 				<h3>
 				Menu:</h3>
 			</label>
-			<ul>
+			
+			<ul id="menu-id">
 
 			<li><a href="#college"> College</a></li>
             <li><a href="#degree"> Degree</a></li>
@@ -40,18 +41,18 @@
 <div id="degree-div">
 	<fieldset>
 	<legend><h1 id="degree">My Degree</h1></legend>
-	<p> 
-Stream: Engineering/Science<br>
+	<p  id="degree-para"> 
+<b>Stream:</b> Engineering/Science<br>
 
-Duration: 4 Years<br>
+<b>Duration: </b>4 Years<br>
 
-Course: Information and Communication Technology<br>
+<b>Course: </b> Information and Communication Technology<br>
 
-Course Type: Graduation<br>
+<b>Course Type:</b> Graduation<br>
 
 B. Tech ICT is a 4- year undergraduate engineering course, minimum eligibility for which is an intermediate degree (10+2) with Physics, Mathematics, Chemistry or any other technical subject (Computer/ Biotechnology/ Biology).<br>
 
-<h3>Top Institutes offering this course are:</h3>
+<h3><span id="italic">Top Institutes offering this course are:</span></h3>
 <ol>
 <li>Sastra University, Thanjavur</li>
 <li>Ahmedabad University, Ahmedabad</li>
@@ -96,7 +97,7 @@ src="https://www.shiksha.com/university/sastra-deemed-to-be-university-thanjavur
  <fieldset>
  	<legend><h1>Image</h1></legend>
  <figure>
- <a href="https://www.ubisoft.com/en-us/game/watch-dogs-2/" target="_blank" ><img src="20180630084613_IMG_4141.jpg" height="500px" width="500px" alt="sorrry here is some problrm " title="my personal photo" align="center"></a>
+ <a href="https://www.ubisoft.com/en-us/game/watch-dogs-2/" target="_blank" ><img src="20180630084613_IMG_4141.jpg" height="500px" width="500px" alt="sorrry here is some problrm " title="my personal photo" align="center" id="img"></a>
  <figcaption>My Personal Photo</figcaption>
  </figure>
  </fieldset>
@@ -180,6 +181,7 @@ src="https://www.shiksha.com/university/sastra-deemed-to-be-university-thanjavur
 </table>
 </fieldset>
 </div>
+<div id="form">
 <fieldset>
 	<legend><h1>Fill The Form</h1></legend>
 <form >
@@ -228,7 +230,11 @@ Hindi
 
 
 </form>
+
+
 </fieldset>
+</div>
+<footer id="foot">
 <fieldset>
 <p><b>Name:</b> Chris Rohan M <br>
 <b>Age : </b>19 <br>
@@ -237,6 +243,7 @@ Hindi
 <a href="mailto:chrisrohan472@gmail.com">(mail me)</a><br>
 </p>
 </fieldset>
+</footer>
 </body>
 
 

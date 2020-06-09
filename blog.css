@@ -1,0 +1,59 @@
+#degree-div{
+	
+	background: green ;
+
+
+}
+form label
+{
+	font-style: italic;
+}
+#head{
+	background: steelblue;
+}
+#college-div{
+	background: yellow;
+}
+#image{
+	background: maroon;
+
+}
+#games-div{
+	background: lightgreen ;
+
+}
+#table{
+	background: purple;
+}
+#form{
+	background: pink;
+}
+footer{
+	background: blue;
+}
+#menu-id{
+	background: blue;
+	margin: 5px;
+	border: 3px solid black;
+	padding: 5px 5px 5px 20px;
+}
+#italic{
+	font-style: italic;
+	font-size: x-large;
+	font-weight: bolder;
+}
+#degree
+{
+	font-style: auto;
+	font-size:xx-large;
+
+}
+#degree-para{
+	margin:5px;
+	border:2px solid black;
+	padding:16px;
+}
+#img
+{
+   
+}
