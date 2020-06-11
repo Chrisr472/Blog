@@ -1,13 +1,38 @@
 #degree-div{
 	
-	background: green ;
+	background: #8888ee ;
 
 
+}
+#b
+{
+	 color : purple;
+	opacity: .9s;
+}
+fieldset
+{
+	border: 1px solid black;
+}
+h1
+{
+	height: 200%;
+}
+body
+{
+	background-color: rgb(200,200,200);
+	background-color: hsla(0,75,50,0);
+	margin : 30px;
 }
 #h{
 	padding: 6px;
 	margin :20px;
 
+}
+div
+{
+	margin-bottom: 50px;
+	border: 2px solid black;
+	padding:30px;
 }
 form label
 {
@@ -15,13 +40,17 @@ form label
 }
 #head{
 	background: steelblue;
+	margin: 2px;
+	margin-bottom: 50px;
+		border: 2px solid black;
+padding:30px;
 }
 #college-div{
-	background: yellow;
+	background: rgb(200,220,0);
 
 }
 #image{
-	background: maroon;
+	background: #99eeee;
 
 }
 #games-div{
@@ -29,21 +58,35 @@ form label
 
 }
 #table{
-	background: purple;
+	background: rgb(200,100,200);
 }
 #form{
 	background: pink;
 }
 footer{
-	background: blue;
+	background: lightblue;
+	border: 2px solid black;
+	padding:20px;
+}
+#d
+{
+	font-size:large;
+}
+#sas
+{
+	padding-left: 50px;
 }
 ul li
 {
 	color: black;
 }
 #menu-id{
-	background: blue;
-	margin: 5px 1000px 5px 5px;
+	background-color: rgb(200,200,200);
+	background-color: hsla(0,75,50,0.8);
+
+
+
+	margin: 10px 1300px 50px 100px;
 	border: 3px solid black;
 	padding: 5px 5px 5px 20px;
 }
@@ -51,6 +94,12 @@ ul li
 	font-style: italic;
 	font-size: x-large;
 	font-weight: bolder;
+
+}
+#li
+{
+	padding-left: 400px;
+	margin: 30px;
 }
 #degree
 {
@@ -63,7 +112,4 @@ ul li
 	border:2px solid black;
 	padding:16px;
 }
-#img
-{
-   opacity: 0.8;
-}
+

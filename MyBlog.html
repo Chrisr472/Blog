@@ -10,17 +10,20 @@
 <link rel="stylesheet" type="text/css" href="blog.css">
 	</head>
 <body bgcolor="ffffff">
-	<div id="head" >
+	
 	<header>
 		<fieldset id="h">
-		  <h1 align="center" >My Blog</h1>
+		  <h1 align="center" id="b" >My Blog</h1>
  </fieldset>
-		  <fieldset>
-		<form>
-						<label>
-				<h3>
-				Menu:</h3>
-			</label>
+
+ 
+		
+		<div id="head" >
+			 <fieldset>  
+						
+					<legend><h1 id="menu">Menus</h1></legend>
+
+			
 			
 			<ul id="menu-id">
 
@@ -31,13 +34,16 @@
             <li> <a href="#table">Table</a></li>
 
 </ul>
-			
-			<label ><b>DArk Mode:</b></label>
-			<input  type="radio" name="mode" value="mode" align="center">
-		</form></fieldset>
+			<form>
+			<label id="d"><b>DArk Mode:</b></label>
+			<input  type="checkbox" name="mode" value="mode" align="center">
+			</fieldset></div>
+		</form>
 
 	</header>
-</div>
+	
+	
+
 <div id="degree-div">
 	<fieldset>
 	<legend><h1 id="degree">My Degree</h1></legend>
@@ -51,7 +57,7 @@
 <b>Course Type:</b> Graduation<br>
 
 B. Tech ICT is a 4- year undergraduate engineering course, minimum eligibility for which is an intermediate degree (10+2) with Physics, Mathematics, Chemistry or any other technical subject (Computer/ Biotechnology/ Biology).<br>
-
+<div id="li">
 <h3><span id="italic">Top Institutes offering this course are:</span></h3>
 <ol>
 <li>Sastra University, Thanjavur</li>
@@ -60,17 +66,17 @@ B. Tech ICT is a 4- year undergraduate engineering course, minimum eligibility f
 <li>Chandigarh University</li>
 <li>BITS, Hyderabad</li>
 </ol>
+</div>
 Average tuition fee for B.Tech ICT course ranges between INR 2 to 10 lacs for most of the top engineering institutes.
 
 Information and Communications Technology (ICT) is a sub-discipline of Information Technology (IT) which focuses on the role of unified communications and the integration of telecommunications (telephone lines and wireless signals), computers as well as necessary enterprise software, middleware, storage, and audio-visual systems, which enable users to access, store, transmit, and manipulate information.</p>
 </fieldset>
 <br>
-<hr>
 </div>
 <div id="college-div">
 <fieldset>
 	<legend><h1 id="college"> My College</h1></legend>
-	<p>SASTRA Deemed University or the Shanmugha Arts, Science, Technology and Research Academy is a highly-ranked higher education institution in Thirumalaisamudram village of Tamil Nadu. Established as Shanmugha College of Engineering in 1984, the institution was granted the status of a deemed university in 2001 under the Section 3 of University Grants Commission Act of 1956. National Assessment and Accreditation Council (NAAC) has accredited it with GRADE A+. SASTRA has also received good ratings from the global ranking agencies like Times Higher Education and QS. <br>
+	<p id="sas">SASTRA Deemed University or the Shanmugha Arts, Science, Technology and Research Academy is a highly-ranked higher education institution in Thirumalaisamudram village of Tamil Nadu. Established as Shanmugha College of Engineering in 1984, the institution was granted the status of a deemed university in 2001 under the Section 3 of University Grants Commission Act of 1956. National Assessment and Accreditation Council (NAAC) has accredited it with GRADE A+. SASTRA has also received good ratings from the global ranking agencies like Times Higher Education and QS. <br>
 
 SASTRA has eight schools, two centres and a directorate of distance education offering undergraduate, postgraduate and research programmes in science, engineering, medicine, education, arts, law and management. Technology Business Incubator at the university provides expertise in 3D printing, robotics and Internet of Things (IoT).
  </p>
@@ -106,8 +112,8 @@ src="https://www.shiksha.com/university/sastra-deemed-to-be-university-thanjavur
  </div>
  <div id="games-div">
 <fieldset>
-<legend><h1 id="games">My games</h1></legend>
-<h3 id="games">My games</h3>
+<legend><h1 id="games">My Games</h1></legend>
+
 
 <ol>
 	<dl>
@@ -146,15 +152,10 @@ src="https://www.shiksha.com/university/sastra-deemed-to-be-university-thanjavur
 	<li>HEllblade</li>
 	<hr/ width="50%" align="left">
 	<dd>this is simple football simulator .<br/>these games are released  every year for info <a href="https://en.wikipedia.org/wiki/Hellblade:_Senua%27s_Sacrifice" target="_blank">click here</a></dd>
-
 </dl>
-
 </ol>
 </fieldset>
-<br>
-<hr>
 </div>
-
 </ol>
 <div id="table">
 <fieldset>
@@ -169,15 +170,12 @@ src="https://www.shiksha.com/university/sastra-deemed-to-be-university-thanjavur
 		<th>Morning</th>
 		<th>Afternoon</th>
 		<th>Evening</th>
-		
-
 	</tr>
 	<tr bgcolor="ee0000">
 		<th>Scheduling</th>
 		<td colspan="2">exercise</td>
 		<td>Gaming</td>
-		
-	</tr>
+		</tr>
 </table>
 </fieldset>
 </div>
@@ -196,7 +194,6 @@ src="https://www.shiksha.com/university/sastra-deemed-to-be-university-thanjavur
 	<label>male :</label>
 	<input type="radio" name="gender" value="male" >
 		<label>female :</label>
-
 	<input type="radio" name="gender" value="female" >
 	<label>others:</label>
 
@@ -209,11 +206,9 @@ Tamil
 	<option value="Telugu">
 Telugu	 
 	</option>
-
 <option value="Hindi">
 Hindi	 
 	</option>
-
 </select>
 <label><h2>Email Info :</h2></label>
  <label>Email :</label>
@@ -227,27 +222,16 @@ Hindi
 <input type="date" name="date"><br>
 <br>
 <button type="submit" > Submit</button>
-
-
-
-
-
 </form>
-
-
 </fieldset>
 </div>
 <footer id="foot">
-<fieldset>
 <p><b>Name:</b> Chris Rohan M <br>
 <b>Age : </b>19 <br>
 <b>Phone Number:</b> 8825896232<br>
 <b>Email Address:</b>chrisrohan472@gmail.com
 <a href="mailto:chrisrohan472@gmail.com">(mail me)</a><br>
 </p>
-</fieldset>
 </footer>
 </body>
-
-
 </html>
