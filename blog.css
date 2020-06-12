@@ -4,9 +4,37 @@
 
 
 }
+#m
+{
+	color: purple;
+	text-decoration: none;
+}
+#bl
+{
+	color: purple;text-decoration: none;
+}
+#m:hover
+{
+	font-size: 7em;
+	font-style: italic;
+	color: salmon;
+	text-decoration: none;
+	
+
+
+}
+
+#bl:hover
+{
+	font-size: 7em;
+	font-style: italic;
+	color: salmon;
+	text-decoration: none;
+}
 #b
 {
-
+	
+font-size: 3em;
 	padding: 1px;
 	 color : purple;
 	opacity: 1;
@@ -14,7 +42,7 @@
 	font-weight: 5em;
 	line-height: 30%;
 	font-family: Ariel; 
-	text-shadow: 10px 1px 3px #8888ee; 
+	text-shadow: 1px 1px 1px #8888ee; 
 	font-style: italic;
 }
 fieldset
@@ -27,12 +55,12 @@ h1
 }
 body
 {
-	background-color: tomato;
+	background-color: #cccccc;
 	background-color: hsla(0,200,50,0);
 	margin : 30px;
 }
 #h{
-	padding: 6px;
+	padding: 100px;
 	margin :20px;
 
 }
@@ -41,6 +69,7 @@ div
 	margin-bottom: 50px;
 	border: 2px solid black;
 	padding:10px;
+	box-shadow: 1px 2px 1px #5555555;
 }
 form label
 {
