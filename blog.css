@@ -9,13 +9,17 @@
 	color: purple;
 	text-decoration: none;
 }
+ul
+{
+	margin-left: 50px;
+}
 #bl
 {
 	color: purple;text-decoration: none;
 }
 #m:hover
 {
-	font-size: 7em;
+	font-size: 5em;
 	font-style: italic;
 	color: salmon;
 	text-decoration: none;
@@ -26,7 +30,7 @@
 
 #bl:hover
 {
-	font-size: 7em;
+	font-size: 5em;
 	font-style: italic;
 	color: salmon;
 	text-decoration: none;
@@ -35,7 +39,8 @@
 {
 	
 font-size: 3em;
-	padding: 1px;
+
+	padding: 0px;
 	 color : purple;
 	opacity: 1;
 	font-size: 5em;
@@ -57,7 +62,8 @@ body
 {
 	background-color: #cccccc;
 	background-color: hsla(0,200,50,0);
-	margin : 30px;
+	
+	background-image: url("9a05c9cdac69597fbac64cb51e0d614f.jpg");
 }
 #h{
 	padding: 100px;
@@ -66,7 +72,8 @@ body
 }
 div
 {
-	margin-bottom: 50px;
+	
+	margin-bottom: 20px;
 	border: 2px solid black;
 	padding:10px;
 	box-shadow: 1px 2px 1px #5555555;
@@ -77,10 +84,10 @@ form label
 }
 #head{
 	background: #008b8b;
-	margin: 2px;
+	margin: 0px;
 	margin-bottom: 50px;
 		border: 2px solid black;
-padding:30px;
+padding:10px;
 }
 #college-div{
 	background-color:  darkcyan ;
@@ -117,15 +124,31 @@ ul li
 {
 	color: black;
 }
-#menu-id{
-	background-color: rgb(200,200,200);
-	background-color: hsla(0,75,50,0.8);
+#menu-id
+{
+	margin-right: 400px;
+	text-align: center;
 
+}
+ul a
+{
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 0px;
+    border: 2px solid black;
+    padding: 10px;
 
+}
 
-	margin: 10px 1300px 50px 100px;
-	border: 3px solid black;
-	padding: 5px 5px 5px 20px;
+#menu-id li{
+	
+display: inline;
+
+visibility: none;
+
+	margin-right: 0px;
 }
 #italic{
 	font-style: italic;
@@ -135,7 +158,7 @@ ul li
 }
 #li
 {
-	padding-left: 400px;
+    padding: center;
 	margin: 30px;
 }
 #degree
@@ -148,6 +171,7 @@ ul li
 	margin:5px;
 	border:2px solid black;
 	padding:16px;
+
 }
 
 p
@@ -165,7 +189,7 @@ ul a:hover
 	text-transform: uppercase;
 	text-shadow: 1px 1px 2px steelblue;
 }
- ul a:visited
+ ul a
 }
 {
 	color: red;
@@ -173,26 +197,42 @@ ul a:hover
 #wd2
 {
 	border: 2px dashed black;
-	padding-left: 20px;
+	padding: 50px;
 }
 #fifa
 {
 	border: 2px dashed black;
-	padding-left: 20px;
+	padding: 50px;
 }
 #Dishornored 
 {
 	border: 2px dashed black;
-	padding-left: 20px;
+	padding: 50px;
 }
 #Hellblade
 {
 	border: 2px dashed black;
-	padding-left: 20px;
+	padding: 50px;
 }
 input.date:hover
 {
 	background-color: green;
 	padding: 10px
 
+}
+button
+{
+	text-align: right;
+}
+button:hover
+{
+   color:red;
+   text-transform: uppercase;
+   background-color: lightskyblue;
+
+
+}
+input:hover
+{
+	background-color: cyan;
 }
