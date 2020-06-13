@@ -90,11 +90,16 @@ form label
 	font-style: italic;
 }
 #head{
-	background: #008b8b;
+	background: #ffffff;
 	margin: 0px;
-	margin-bottom: 50px;
-		border: 2px solid black;
-padding:10px;
+		border: 1px solid black;
+
+position: fixed;
+top: 0px;
+width: 100%;
+z-index: 10;
+
+
 }
 #college-div{
 	background-color:  darkcyan ;
@@ -168,6 +173,13 @@ visibility: none;
 {
     padding-right:  10px;
 	margin: 30px;
+	width: 30%;
+	height: 30%;
+	
+	position: absolute;
+	float: left;
+	z-index: 2;
+
 }
 #degree
 {
@@ -176,12 +188,27 @@ visibility: none;
 
 }
 #degree-para{
-	margin:5px;
-	border:2px solid black;
-	padding:16px;
+	
+	border:1px solid black;
+	
+	width: 50%;
+	height: 50%;
+position: relative;\
+left: 1px;
+	float: right;
+z-index: 2;
 
 }
-
+#AV
+{
+	border: 1px solid black;
+	width: 50%;
+	height: 50%;
+	float: right;
+	position: relative;
+	left: 10px;
+	z-index: 2px;
+}
 p
 {
 
