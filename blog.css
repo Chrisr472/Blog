@@ -1,7 +1,7 @@
 #degree-div{
 	
 	background: #00bfff ;
-
+	
 
 }
 #m
@@ -63,7 +63,8 @@ body
 {
 	background-color: #cccccc;
 	background-color: hsla(0,200,50,0);
-	
+
+	background-attachment:fixed;
 	background-image: url("9a05c9cdac69597fbac64cb51e0d614f.jpg");
 }
 #h{
@@ -73,10 +74,10 @@ body
 }
 div
 {
-	margin:70px;
+	margin:20px;
 	margin-bottom: 20px;
 	border: 2px solid black;
-	padding:10px;
+	padding:1px;
 	
 -moz-box-shadow: -5px -5px #777777;
 -webkit-box-shadow: -5px -5px #777777;
@@ -92,13 +93,54 @@ form label
 #head{
 	background: #ffffff;
 	margin: 0px;
+	padding: 0px;
 		border: 1px solid black;
+     float: left;
 
 position: fixed;
 top: 0px;
+left: 0px;
 width: 100%;
 z-index: 10;
+border:none;
+min-width:500px ;
 
+}
+#dropdown
+{
+    display: inline-block;
+  position: absolute;
+  max-height: 500px;
+}
+#drop-content a
+{
+	padding: 20px;
+	text-align: center;
+
+
+}
+#drop-content a:hover
+{
+	padding: 20px;
+	background-color: #f1f1f1;
+
+}
+#drop-content
+{
+background-color: #ffffff;
+display: none;
+top: 20px;
+
+width:auto;
+height:auto;
+box-shadow: 2px 2px 4px #f1f1f1;
+position:absolute;
+
+z-index: 10;
+}
+#dropdown:hover #drop-content
+{
+	display: block;
 
 }
 #college-div{
@@ -137,31 +179,36 @@ ul li
 	color: black;
 }
 #menu-id
-{
-	margin-right: 400px;
-	text-align: center;
+{ 
+	position: relative;left: 20px;
+bottom: 10px;
 
 }
 ul a
-{
-	 background-color: lightsalmon;
+{  
+	 background-color: white;
 	text-decoration: none;
 	font-size: 1.5em;
 	font-weight: bold;
 	font-style: italic;
 	line-height: 0px;
-    border: 2px solid black;
+ float: left;
     padding: 10px;
 
 }
+#dark
 
+{
+	position: relative;
+	float: right;
+	bottom: 10px;
+	color: darkcyan;
+}
 #menu-id li{
 	
 display: inline;
 
 visibility: none;
-
-	margin-right: 0px;
 }
 #italic{
 	font-style: italic;
@@ -213,15 +260,19 @@ p
 {
 
 }
-ul a:active
+ul a
 {
   color: darkcyan;
-
+ border :0px solid black;
 }
 ul a:hover
-{
+{  
+
+	border-bottom-color: red;
+	border-bottom-width: 3px;
 	color: darkcyan;
-	text-transform: uppercase;
+
+	
 	text-shadow: 1px 1px 2px steelblue;
 }
  ul a
@@ -255,9 +306,12 @@ input.date:hover
 	padding: 10px
 
 }
+
 button
 {
-	text-align: right;
+   left: 800px;
+	position: relative;
+
 }
 button:hover
 {
