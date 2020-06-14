@@ -78,7 +78,7 @@ div
 	margin-bottom: 20px;
 	border: 2px solid black;
 	padding:1px;
-	
+	background-color: linear-gradient(white,darkcyan);
 -moz-box-shadow: -5px -5px #777777;
 -webkit-box-shadow: -5px -5px #777777;
 box-shadow: -5px -5px #777777;
@@ -203,6 +203,7 @@ ul a
 	float: right;
 	bottom: 10px;
 	color: darkcyan;
+	border:0px solid black;
 }
 #menu-id li{
 	
@@ -227,6 +228,11 @@ visibility: none;
 	float: left;
 	z-index: 2;
 
+}
+#dark:hover
+{
+	border-bottom-width: 3px;
+border-bottom-color: red;
 }
 #degree
 {
@@ -267,7 +273,7 @@ ul a
 }
 ul a:hover
 {  
-
+  background-color: linear-gradient(to bottom,white,red);
 	border-bottom-color: red;
 	border-bottom-width: 3px;
 	color: darkcyan;
@@ -324,4 +330,20 @@ button:hover
 input:hover
 {
 	background-color: cyan;
+}
+#ll{
+	width: 25%;
+	height: 25%;
+	display: none;	
+	position: absolute;
+	left:30px;
+	top: 60px;
+}#gh
+{
+	position: relative;
+	display:inline;
+
+}
+#gh:hover #ll
+{display: inline;
 }
