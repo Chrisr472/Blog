@@ -1,3 +1,7 @@
+*
+{
+	box-sizing: border-box;
+}
 #degree-div{
 	
 	background: #00bfff ;
@@ -78,7 +82,7 @@ div
 	margin-bottom: 20px;
 	border: 2px solid black;
 	padding:1px;
-	background-color: linear-gradient(white,darkcyan);
+	
 -moz-box-shadow: -5px -5px #777777;
 -webkit-box-shadow: -5px -5px #777777;
 box-shadow: -5px -5px #777777;
@@ -233,6 +237,7 @@ visibility: none;
 {
 	border-bottom-width: 3px;
 border-bottom-color: red;
+background-image: linear-gradient(to bottom,white ,#66ffff)
 }
 #degree
 {
@@ -270,13 +275,15 @@ ul a
 {
   color: darkcyan;
  border :0px solid black;
+ transition: color 1s;
 }
 ul a:hover
 {  
-  background-color: linear-gradient(to bottom,white,red);
+  background-image: linear-gradient(to bottom,white,lightpink);
+
 	border-bottom-color: red;
 	border-bottom-width: 3px;
-	color: darkcyan;
+	color: cyan;
 
 	
 	text-shadow: 1px 1px 2px steelblue;
@@ -346,4 +353,252 @@ input:hover
 }
 #gh:hover #ll
 {display: inline;
+}
+#outer
+{
+	visibility: none
+	;
+	position: relative;
+}
+#inner
+{
+	visibility: hidden;
+	z-index: 2;
+}
+#graph
+
+{border:1px solid black;
+	border-radius: 10px;
+	background-color:lightblue;
+visibility: visible;
+width: 2000px;
+height: 400px;
+left: 0px; 
+right: 0px;
+
+transition: visibility 3s;
+position:absolute;
+}
+#graph:hover #inner{
+
+visibility: visible;	}
+
+
+
+ #dot
+ {
+ 	background-color: red;
+ 	border:1px solid black;
+ 	border-radius: 10px;
+ 	position: fixed;
+ 	position: center;
+ 	width: 20px;
+ 	height: 20px;
+ 	top: 100px;
+ 	left: 200px;
+ 	box-shadow: 2px 2px 4px #f1f1f1;
+
+
+ }
+ #dot1
+ {
+ 	background-color: red;
+ 	border:1px solid black;
+ 	border-radius: 10px;
+ 	position: fixed;
+ 	position: center;
+ 	width: 20px;
+ 	height: 20px;
+ 	top: 100px;
+ 	left: 250px;
+ 	box-shadow: 2px 2px 4px #f1f1f1;
+
+
+ }
+ #dot2
+ {
+ 	background-color: red;
+ 	border:1px solid black;
+ 	border-radius: 10px;
+ 	position: fixed;
+ 	position: center;
+ 	width: 20px;
+ 	height: 20px;
+ 	top: 100px;
+ 	left: 300px;
+ 	box-shadow: 2px 2px 4px #f1f1f1;
+
+
+
+ }
+ #dot3
+ {
+ 	background-color: red;
+ 	border:1px solid black;
+ 	border-radius: 10px;
+ 	position: fixed;
+ 	position: center;
+ 	width: 20px;
+ 	height: 20px;
+ 	top: 100px;
+ 	left: 350px;
+ 	box-shadow: 2px 2px 4px #f1f1f1;
+
+
+ }
+ #degree::after
+ {
+    content: url("images.png")
+    background-color:black;
+    box-shadow: 1px 1px 3px #f0f0f0;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    z-index: 3;
+    
+
+ }
+*:hover #dot{animation-name: chris;
+animation-duration: 2s;animation-delay: .3s;
+animation-timing-function: linear;
+
+animation-iteration-count: infinite;
+
+ }
+ @keyframes chris
+ {
+ 	0%
+ 	{
+background-color:;
+ 	}
+ 	33.33%
+ 	{
+ 		background-color: cyan;
+ 		top: 100px;
+ 		left:50px;
+
+ 	}
+66.66%
+{
+	background-color: purple;
+	left: 50px;
+	top: 300px;
+
+ }
+100%
+{
+	background-color:salmon;
+	top: 300px;
+	left: 200px;
+	}
+
+}
+*:hover #dot1{animation-name: chris;
+animation-duration: 2s;animation-delay: .3s;
+animation-timing-function: linear;
+
+animation-iteration-count: infinite;
+
+ }
+ @keyframes chris
+ {
+ 	0%
+ 	{
+background-color:;
+ 	}
+ 	33.33%
+ 	{
+ 		background-color: cyan;
+ 		top: 100px;
+ 		left:50px;
+
+ 	}
+66.66%
+{
+	background-color: purple;
+	left: 50px;
+	top: 300px;
+
+ }
+100%
+{
+	background-color:salmon;
+	top: 300px;
+	left: 200px;
+	}
+
+}
+*:hover #dot2{animation-name: chris;
+animation-duration: 2s;animation-delay: .3s;
+animation-timing-function: linear;
+animation-direction: alternate-reverse;
+animation-iteration-count: infinite;
+
+ }
+ @keyframes chris
+ {
+ 	0%
+ 	{
+background-color:;
+ 	}
+ 	33.33%
+ 	{
+ 		background-color: cyan;
+ 		top: 100px;
+ 		left:50px;
+
+ 	}
+66.66%
+{
+	background-color: purple;
+	left: 50px;
+	top: 300px;
+
+ }
+100%
+{
+	background-color:salmon;
+	top: 300px;
+	left: 200px;
+	}
+
+}
+*:hover #dot3{animation-name: chris;
+animation-duration: 2s;animation-delay: .3s;
+animation-timing-function: linear;
+animation-direction: alternate-reverse;
+animation-iteration-count: infinite;
+
+ }
+ ::selection
+ {
+color: pink;
+ }
+ @keyframes chris
+ {
+ 	0%
+ 	{
+background-color:;
+ 	}
+ 	33.33%
+ 	{
+ 		background-color: cyan;
+ 		top: 100px;
+ 		left:50px;
+
+ 	}
+66.66%
+{
+	background-color: purple;
+	left: 50px;
+	top: 300px;
+
+ }
+100%
+{
+	background-color:salmon;
+	top: 300px;
+	left: 200px;
+	}
+
 }
