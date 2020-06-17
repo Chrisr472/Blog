@@ -320,12 +320,6 @@ input.date:hover
 
 }
 
-button
-{
-   left: 800px;
-	position: relative;
-
-}
 button:hover
 {
    color:red;
@@ -354,12 +348,7 @@ input:hover
 #gh:hover #ll
 {display: inline;
 }
-#outer
-{
-	visibility: none
-	;
-	position: relative;
-}
+
 #inner
 {
 	visibility: hidden;
@@ -376,8 +365,8 @@ height: 400px;
 left: 0px; 
 right: 0px;
 
-transition: visibility 3s;
-position:absolute;
+
+position:relative;
 }
 #graph:hover #inner{
 
@@ -445,6 +434,18 @@ visibility: visible;	}
  	box-shadow: 2px 2px 4px #f1f1f1;
 
 
+ }
+ header
+ {
+ 	position: relative;
+ }
+ 
+ #stop
+ {
+ 	position: absolute; background-color: pink ;border:2px solid black ;
+ right: 10px;
+ bottom: 10px;
+ 	z-index: 30;
  }
  #degree::after
  {

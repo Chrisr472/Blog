@@ -9,26 +9,47 @@
 	</title>
 <link rel="stylesheet" type="text/css" href="blog.css">
 	</head>
-<body bgcolor="ffffff">
 	
+
+<body bgcolor="ffffff">
+		
 	<header>
-	<span id="outer">
+		<button id="stop" >Stop/Start</button>
+	
           <span id="graph"> 
-         <span id="hh">
+         
           <span id="dot">  </span>
           <span id="dot1">  </span>
           <span id="dot2">  </span>
           <span id="dot3">  </span>
           </span> 
-            </span>
+            
 		<span id="inner">
 		<fieldset id="h">
 		  <p id="b" align="center"><a href="mailto:chrisrohan472@gmail.com" id="m" >M</a>y <a href="#games" id ="bl">B</a>log
 		  </p>
  </fieldset>
  </span>
-</span>
- 
+
+ <script >var count=1;
+		document.getElementById("stop").onclick=oncl;
+		
+		function oncl()
+		{
+			count+=1;
+			if((count%2)==0)
+			{
+			document.getElementById("graph").style.visibility="hidden";
+			 document.getElementById("inner").style.visibility="visible";
+				}
+		   else		
+		   {
+		   	document.getElementById("graph").style.visibility="visible";
+		   	 document.getElementById("inner").style.visibility="hidden";
+		   }
+
+		}
+	</script>
 		
 		<span id="head">
 			<a href="https://www.blogger.com/about/?bpli=1" target="_blank">
@@ -62,7 +83,7 @@
 
 	</header>
 	
-	
+	<span id="js"></span>
 
 <div id="degree-div">
 	<fieldset>
@@ -185,6 +206,9 @@ src="https://www.shiksha.com/university/sastra-deemed-to-be-university-thanjavur
 	<legend> <h1>Table</h1></legend>
 <figure id="load">
 	<img src="load.gif" id="load" >
+	<script>
+document.getElementById("load").src = "images.png";
+</script>
 	<figcaption>loading... </figcaption>
 </figure>
 <table border="3" bgcolor="#ff00cc">
