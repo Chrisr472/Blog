@@ -9,12 +9,10 @@
 	</title>
 <link rel="stylesheet" type="text/css" href="blog.css">
 	</head>
-	
-
-<body bgcolor="ffffff">
+	<body bgcolor="ffffff">
 		
 	<header>
-		<button id="stop" >Stop/Start</button>
+		<button id="stop" >Stop/Start </button>
 	
           <span id="graph"> 
          
@@ -22,9 +20,11 @@
           <span id="dot1">  </span>
           <span id="dot2">  </span>
           <span id="dot3">  </span>
+          <span></span>
           </span> 
             
 		<span id="inner">
+			
 		<fieldset id="h">
 		  <p id="b" align="center"><a href="mailto:chrisrohan472@gmail.com" id="m" >M</a>y <a href="#games" id ="bl">B</a>log
 		  </p>
@@ -52,8 +52,41 @@
 	</script>
 		
 		<span id="head">
+			
+				<span style="display: inline-block;">
+			<a  id="sm" href="#"  ><img src="menu.jpg" width="30px" height="30px" style="position: absolute;left: 30px;top: 0px;"></a>
+			</span>
+			<span id="side-menu" style="display: none ;position: fixed; width: 0px;height: 100%; left: 0px ; border:2px solid black;background-color: white; top: 50px; ">
+			
+				<ul style=" position: absolute; text-align: left; ">
+					<li><a>PS5</a></li>
+					<li><a>XBOX</a></li>
+					<li><a>PC</a></li>
+				</ul>
+			
+			</span>
+			<script type="text/javascript">
+				document.getElementById("sm").onclick=disp;
+				 var count=1;
+				function disp()
+				{
+					count+=1
+				;
+				if (count%2==0) {
+
+					document.getElementById("side-menu").style.width="200px";
+				document.getElementById("side-menu").style.display="block";
+			}
+			else
+			{					document.getElementById("side-menu").style.width="0px";
+
+								document.getElementById("side-menu").style.display="none";
+
+			}
+			}
+			</script>
 			<a href="https://www.blogger.com/about/?bpli=1" target="_blank">
-<img src="images.png" width="20px" height="20px" style="position: absolute; left: 40px;top: 6px; "></a>
+<img src="images.png" width="20px" height="20px" style="position: absolute; left: 80px;top: 6px; "></a>
 			<ul id="menu-id">
 
 			<li><a href="#college"> College</a></li>
@@ -224,6 +257,15 @@ document.getElementById("load").src = "images.png";
 		<td>Gaming</td>
 		</tr>
 </table>
+<p id="date" style="font-size: 3em"></p>
+<script type="text/javascript">
+				setInterval(da,1000);
+				function da()
+				{
+					document.getElementById("date").innerHTML= Date();
+				}
+
+			</script>
 </fieldset>
 </div>
 <div id="form">
@@ -268,7 +310,20 @@ Hindi
 <label>Date :</label>
 <input type="date" name="date"><br>
 <br>
-<button type="submit" > Submit</button>
+<button type="submit"  id="su"> Submit</button>
+<script >
+	document.getElementById("su").onclick=al;
+	function al()
+	{
+		alert("submit allert");
+		 var value =prompt("Enter Preference: ","suma");
+		confirm(" oooooooooooooooooooooooookkkkk");
+		if(confirm())
+		{
+			alert("ok "+value);
+		}
+	}
+</script>
 </form>
 </fieldset>
 </div>

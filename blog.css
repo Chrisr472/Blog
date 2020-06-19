@@ -12,14 +12,13 @@
 {
 	color: purple;
 	text-decoration: none;
+	transition: color,font-size .3s;
 }
-ul
-{
-	margin-left: 50px;
-}
+
 #bl
 {
 	color: purple;text-decoration: none;
+	transition: color,font-size .3s;
 }
 #m:hover
 {
@@ -93,6 +92,10 @@ border-radius: 20px;
 form label
 {
 	font-style: italic;
+}
+#sidemenu
+{
+	transition: width,display 1s;
 }
 #head{
 	background: #ffffff;
@@ -243,6 +246,11 @@ background-image: linear-gradient(to bottom,white ,#66ffff)
 {
 	font-style: auto;
 	font-size:xx-large;
+
+}
+li a
+{
+	text-decoration: none;
 
 }
 #degree-para{
